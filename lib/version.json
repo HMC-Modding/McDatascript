@@ -1,0 +1,14 @@
+{
+  "lib":"version",
+  "version":"1",
+  "mcds":{
+    "updateData":{
+      "name":"MCDS 0.1.1",
+      "version":2,
+      "dPath":"/lib",
+      "dependencies":{
+          "versionData":"https://github.com/"
+      }
+    }
+  }
+}
