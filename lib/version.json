@@ -6,8 +6,8 @@
       "name":"MCDS 0.1.1",
       "version":2,
       "dPath":"lib",
+      "versionData":"https://hmc-modding.github.io/McDatascript/lib/version.json",
       "dependencies":{
-          "versionData":"https://hmc-modding.github.io/McDatascript/lib/version.json",
           "mcfunction":"https://hmc-modding.github.io/McDatascript/lib/syntaxdata/mcfunction/defs.json"
       }
     }
