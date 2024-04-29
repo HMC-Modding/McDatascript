@@ -1,0 +1,13 @@
+{
+  "lib":"syntaxdata/mcfunction/defs.json"
+  "filePrefix":"lib/syntaxdata/mcfunction"
+  "fileDefs":{
+    "types":"types.json",
+    "selectors":"selectors.json",
+    "statements":{
+      "path":"execute.json",
+      "subPath":"execute.statements"
+    },
+    "output":"chat.json"
+  }
+}
