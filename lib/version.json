@@ -8,6 +8,7 @@
       "dPath":"/lib",
       "dependencies":{
           "versionData":"https://hmc-modding.github.io/McDatascript/lib/version.json"
+          "mcfunction":"https://hmc-modding.github.io/McDatascript/lib/syntaxdata/mcfunction/defs.json"
       }
     }
   }
