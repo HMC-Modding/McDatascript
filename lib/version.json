@@ -1,6 +1,6 @@
 {
   "lib":"version",
-  "version":"2",
+  "version":2,
   "mcds":{
     "updateData":{
       "name":"MCDS 0.1.1",
