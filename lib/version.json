@@ -7,7 +7,7 @@
       "version":2,
       "dPath":"/lib",
       "dependencies":{
-          "versionData":"https://github.com/"
+          "versionData":"https://hmc-modding.github.io/McDatascript/lib/version.json"
       }
     }
   }
