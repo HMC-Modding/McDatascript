@@ -3,7 +3,7 @@
     "types": {
         "lookup": "dfuncs/scores.py",
         "int": {
-            "layout": "int %a&(%set)[=#[%b=$[calc(:>,'int')]]]",
+            "layout": "int %a&(%set)[=#[%b=$[calc(::,'int')]]]",
             "cmd": "scoreboard objectives create $[gen()] dummy %a",
             "extra": {
                 "case": "%set",
