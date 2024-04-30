@@ -1,0 +1,12 @@
+{
+  "name":"porkchop",
+  "lib":"porkchop/defs.json",
+  "porkchop":{
+    "version":1,
+    "type":"base",
+    "pork":"chop"
+  },
+  "children":{
+    
+  }
+}
