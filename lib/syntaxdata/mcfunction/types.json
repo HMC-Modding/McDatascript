@@ -3,11 +3,19 @@
     "types": {
         "lookup": "dfuncs/scores.py",
         "int": {
-            "layout": "int %a&(%set)[=#[%b=$[calc(::,'int')]]]",
-            "cmd": "scoreboard objectives create $[gen()] dummy %a",
-            "extra": {
-                "case": "%set",
-                "cmd": "scoreboard players set @a %a %b"
+            "layout": "int %a#(%set)[=%b]",
+            "cmd": "scoreboard objectives create [$[gen('%a')]] dummy [%a]",
+            "other": {
+                "boolCase":{
+                    "novar":{
+                        "case":"%set&&%b:0123456789+-*/: ",
+                        "cmd": "scoreboard players set @a $[lookup(%a)] $[calc(%b,'setnovar',int)]"
+                    },
+                    "var":{
+                        "case":"%set&!%b:0123456789+-*/: ",
+                        "cmd": "scoreboard players set @a $[lookup(%a)] 0\\nscoreboard players operation @a $[lookup(%a)] $[calc(%b,'setvar',str)]"
+                    }
+                }
             }
         }
     }
