@@ -13,7 +13,7 @@
   },
   "children":{
     "types":{
-      "path":"syntaxdata/mfunction/types.json",
+      "path":"syntaxdata/mcfunction/types.json",
       "src":"https://hmc-modding.github.io/McDatascript/lib/syntaxdata/mcfunction/types.json"
     }
   }
