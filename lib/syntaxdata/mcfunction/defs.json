@@ -1,7 +1,7 @@
 {
   "name":"mcfunction",
   "lib":"syntaxdata/mcfunction/defs.json",
-  "filePrefix":"lib/syntaxdata/mcfunction",
+  "filePrefix":"syntaxdata/mcfunction",
   "fileDefs":{
     "types":"types.json",
     "selectors":"selectors.json",
