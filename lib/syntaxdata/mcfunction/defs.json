@@ -1,4 +1,5 @@
 {
+  "name":"mcfunction",
   "lib":"syntaxdata/mcfunction/defs.json",
   "filePrefix":"lib/syntaxdata/mcfunction",
   "fileDefs":{
@@ -9,5 +10,8 @@
       "subPath":"execute.statements"
     },
     "output":"chat.json"
+  },
+  "children":{
+    
   }
 }
