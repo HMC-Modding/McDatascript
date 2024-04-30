@@ -1,0 +1,14 @@
+{
+  "parent":"mcfunction",
+  "types":{
+    "lookup":"dfuncs/scores.py",
+    "int":{
+      "layout":"int %a&(%set)[=#[%b=$[calc(%c,'int')]]]",
+      "cmd":"scoreboard objectives create [$[gen()]] dummy [%a]",
+      "extra":{
+        "case":"%set",
+        "cmd":"scoreboard players set @a %a %b"
+      }
+    }
+  }
+}
